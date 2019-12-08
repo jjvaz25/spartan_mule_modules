@@ -1,0 +1,25 @@
+{
+  "name": "spartan_mule_modules",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --progress --mode=production",
+    "watch": "webpack --progress --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjvaz25/spartan_mule_modules.git"
+  },
+  "author": "Jeff Vaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jjvaz25/spartan_mule_modules/issues"
+  },
+  "homepage": "https://github.com/jjvaz25/spartan_mule_modules#readme",
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}
