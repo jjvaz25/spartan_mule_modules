@@ -16,14 +16,4 @@ import { createAboutPage } from './aboutpage'
   createHomePage();
 })();
 
-// const homeBtn = document.getElementById("homeBtn");
-// homeBtn.addEventListener("click", createHomePage);
 
-// const contactBtn = document.getElementById("contactBtn");
-// contactBtn.addEventListener("click", createContactPage);
-
-// const aboutBtn = document.getElementById("aboutBtn");
-// aboutBtn.addEventListener("click", createAboutPage);
-
-
-// createHomePage();

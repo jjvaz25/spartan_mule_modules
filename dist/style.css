@@ -88,11 +88,12 @@ h3 {
 }
 
 .aboutUl {
+  list-style-type: decimal;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
 .aboutListItems {
-  list-style-type: decimal;
   padding: 5px;
+  list-style-position: inside;
 }
