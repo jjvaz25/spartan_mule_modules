@@ -1,4 +1,4 @@
-function createHomePage(e) {
+function createHomePage() {
   const contentDiv = document.getElementById('content');
   removeAllChildElements(contentDiv);
   contentDiv.appendChild(appendImage());
@@ -39,4 +39,4 @@ function appendP() {
   return pElement;
 }
 
-export { createHomePage }
+export { createHomePage, removeAllChildElements, appendImage, appendH1, appendH2 }
