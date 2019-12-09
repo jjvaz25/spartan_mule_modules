@@ -11,13 +11,36 @@ body {
   background-attachment: fixed;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
 #wrapper {
   display: flex;
 }
 
 #content{
-  /* margin: 5em 13em 5em 13em; */
-  margin: 0 auto;
+  margin: 15px auto;
   text-align: left;
   background-color: rgba(175, 238, 238, .8);
   padding: 20px;
@@ -31,4 +54,24 @@ body {
   height: auto;
   float: right;
   margin-left: 10px;
+}
+
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
 }
