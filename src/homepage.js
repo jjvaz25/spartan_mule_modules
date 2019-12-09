@@ -1,3 +1,18 @@
+function createHomePage(e) {
+  const contentDiv = document.getElementById('content');
+  removeAllChildElements(contentDiv);
+  contentDiv.appendChild(appendImage());
+  contentDiv.appendChild(appendH1("Spartan Mule"));
+  contentDiv.appendChild(appendH2("The packing list for minimalists"));
+  contentDiv.appendChild(appendP());
+}
+
+function removeAllChildElements(div) {
+  while (div.firstChild) {
+    div.removeChild(div.firstChild)
+  }
+}
+
 function appendImage() {
   const imgElement = document.createElement("img");
   imgElement.classList.add("muleImg");
@@ -24,4 +39,4 @@ function appendP() {
   return pElement;
 }
 
-export { appendImage, appendH1, appendH2, appendP }
+export { createHomePage }
