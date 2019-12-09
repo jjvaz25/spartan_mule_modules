@@ -3,14 +3,27 @@ import { createContactPage } from './contactpage';
 import { createAboutPage } from './aboutpage'
 
 
-const homeBtn = document.getElementById("homeBtn");
-homeBtn.addEventListener("click", createHomePage);
+(function() {
+  const homeBtn = document.getElementById("homeBtn");
+  homeBtn.addEventListener("click", createHomePage);
 
-const contactBtn = document.getElementById("contactBtn");
-contactBtn.addEventListener("click", createContactPage);
+  const contactBtn = document.getElementById("contactBtn");
+  contactBtn.addEventListener("click", createContactPage);
 
-const aboutBtn = document.getElementById("aboutBtn");
-aboutBtn.addEventListener("click", createAboutPage);
+  const aboutBtn = document.getElementById("aboutBtn");
+  aboutBtn.addEventListener("click", createAboutPage);
+
+  createHomePage();
+})();
+
+// const homeBtn = document.getElementById("homeBtn");
+// homeBtn.addEventListener("click", createHomePage);
+
+// const contactBtn = document.getElementById("contactBtn");
+// contactBtn.addEventListener("click", createContactPage);
+
+// const aboutBtn = document.getElementById("aboutBtn");
+// aboutBtn.addEventListener("click", createAboutPage);
 
 
-createHomePage();
+// createHomePage();
